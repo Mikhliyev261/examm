@@ -1,0 +1,139 @@
+.values {
+    h5 {
+        padding-top: 120px;
+        color: #495567;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+    }
+    
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 103px;
+        
+        img {
+            position: relative;
+            border-radius: 50%;
+            width: 240px;
+            transform: translateX(50px);
+        }
+        
+        h6 {
+            padding-top: 70px;
+            max-width: 350px;
+            color: #495567;
+            text-align: center;
+            font-family: Space Mono;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -1.071px;
+        }
+        
+        .number {
+            position: absolute;
+            background-color: #FCB72B;
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            transform: translate(120px, -40px);
+            
+            p {
+                padding-top: 33px;
+                color: #495567;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: -1.071px;
+            }
+        }
+        
+        .p-cards {
+            p {
+                padding-top: 27px;
+                max-width: 350px;
+                color: #939CAA;
+                text-align: center;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+// Values Section Tablet Version
+@media only screen and (max-width: 1024px) {
+    .values {
+        
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .card_2 {
+                padding-top: 55px;
+            }
+            .card_3 {
+                padding-top: 55px;
+            }
+            
+            
+            img {
+                position: relative;
+                border-radius: 50%;
+                width: 240px;
+                transform: translateX(50px);
+            }
+            
+            .number {
+                position: absolute;
+                background-color: #FCB72B;
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                transform: translate(120px, -40px);
+                
+                p {
+                    padding-top: 33px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.071px;
+                }
+            }
+            
+            .p-cards {
+                p {
+                    padding-top: 27px;
+                    max-width: 350px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+    
+}

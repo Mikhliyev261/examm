@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    box-sizing:border-box;
+}
+img {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 1350px;
+}
+
+
+.big-container {
+    max-width: 1560px;
+    margin: 0 auto;
+}
+

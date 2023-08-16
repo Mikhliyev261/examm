@@ -1,0 +1,77 @@
+.banner {
+    background-image: url(../../../../../assets/images/home-hero-desktop.jpg);
+    background-size: cover;
+    
+    .banner__items {
+        padding: 153px 15px;
+        
+        h1 {
+            max-width: 500px;
+            color: #FFF;
+            font-family: Space Mono;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+        }
+        p {
+            padding-top: 40px;
+            max-width: 405px;
+            color: #FFF;
+            font-family: Lexend Deca;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .btn {
+            margin-top: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    h5 {
+        padding-left: 110px;
+    }
+}
+
+// Banner Tablet And Mobile Section Start
+@media only screen and (max-width: 1024px) {
+    .banner {
+        background-image: url(../../../../../assets/images/home-hero-tablet.jpg);
+        
+        .banner__items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                max-width: 573px;
+            }
+        }
+    }
+}
+
+// Banner Tablet And Mobile Section Start
+@media only screen and (max-width: 566px) {
+    .banner {
+        background-image: url(../../../../../assets/images/home-hero-mobile.jpg);
+    }
+}
+
+// Banner Tablet And Mobile Section Start
+@media only screen and (max-width: 500px) {
+    .banner {
+        .banner__items {
+            p {
+                max-width: 311px;
+            }
+        }
+    }
+}

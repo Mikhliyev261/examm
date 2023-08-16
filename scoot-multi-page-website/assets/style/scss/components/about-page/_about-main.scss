@@ -1,0 +1,249 @@
+.digital {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-top: 120px;
+    
+    .digital__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1350px;    
+        .digital__text {
+            h4 {
+                max-width: 445px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px;
+            }
+            p {
+                max-width: 445px;
+                padding-top: 24px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+        .digital-img {
+            .ava {
+                display: none;
+            }
+        }
+    }
+}
+
+.urban {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 120px;
+    
+    .urban_items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1350px;    
+        .urban_text {
+            h4 {
+                max-width: 445px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px;
+            }
+            p {
+                max-width: 445px;
+                padding-top: 24px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+// Digital Tablet And Mobile Section Start
+@media only screen and (max-width: 1024px) {
+    .digital {
+        
+        .digital__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            
+            .digital__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    padding-top: 56px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    max-width: 573px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .digital {
+        
+        .digital__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            
+            .digital__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                
+            }
+        }
+    }
+    
+}
+// Digital Tablet And Mobile Section End
+
+// Urban Tablet And Mobile Section Start
+@media only screen and (max-width: 1024px) {
+    .urban {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 auto;
+        padding-top: 200px;
+        
+        .urban_items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .urban_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    padding-top: 56px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    max-width: 573px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .urban {
+        
+        .urban_items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            .urban_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+// Urban Tablet And Mobile Section End

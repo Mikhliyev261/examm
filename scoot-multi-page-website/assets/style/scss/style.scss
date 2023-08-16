@@ -1,0 +1,49 @@
+// Important Files
+@import '_basic.scss';
+
+// Global
+@import 'components/_navbar.scss';
+@import 'components/_footer.scss';
+
+// Home Page
+@import 'components/home-page/_banner-sec.scss';
+@import 'components/home-page/_delivery-sec.scss';
+@import 'components/home-page/_main-sec.scss';
+
+// About Page
+@import '_about-page.scss';
+
+// Careers Page
+@import '_careers-page.scss';
+
+// locations Page
+@import '_location-page.scss';
+
+//  Button
+.btn {
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    border: none;
+    outline: none;
+    transition: 0.5s ;
+
+    
+    a {
+        color: #FFF;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: 3px solid #FCB72B;
+
+        a {
+            color: #FCB72B;
+        }
+    }
+}

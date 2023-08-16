@@ -1,0 +1,126 @@
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-top: 200px;
+    
+    .mission__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1350px;    
+        .mission__text {
+            h4 {
+                max-width: 445px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px;
+            }
+            p {
+                max-width: 445px;
+                padding-top: 24px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+            .btn {
+                box-sizing:border-box;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+// Mission Tablet And Mobile Section Start
+@media only screen and (max-width: 1024px) {
+    .mission {
+        
+        .mission__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            
+            .mission__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    padding-top: 56px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+                p {
+                    max-width: 573px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .mission {
+        
+        .mission__items {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 1350px;    
+            
+            .mission__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4 {
+                    width: 311px;
+                    color: #495567;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: -1.429px;
+                }
+                p {
+                    width: 311px;
+                    color: #939CAA;
+                    text-align: center;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                
+            }
+        }
+    }
+    
+}
+// Mission Tablet And Mobile Section End

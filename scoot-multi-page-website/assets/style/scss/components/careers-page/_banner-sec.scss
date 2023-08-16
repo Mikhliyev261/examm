@@ -1,0 +1,62 @@
+.careers-banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../images/careers-locations-hero-desktop.jpg);
+    
+    .c_banner-items {
+        justify-content: space-between;
+        padding: 72px 0px;
+        
+        h5 {
+            color: #FFF;
+            font-family: Space Mono;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+        }
+    }
+}
+
+// About Banner Tablet And Mobile version Start
+@media only screen and (max-width: 1110px) {
+    .careers-banner {
+        h5 {
+            padding-left: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .careers-banner {
+        background-image: url(../../images/careers-locations-hero-tablet.jpg);
+        h5 {
+            padding-left: 97px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .careers-banner {
+        display: flex;
+        justify-content: flex-end;
+        background-image: url(../../images/careers-location-hero-mobile.jpg);
+        
+        .c_banner-items {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 1350px;
+            padding: 72px 0px;
+            
+            h5 {
+                padding-left: 0px;
+            }
+            img {
+                display: none;
+            }
+        }
+    }
+}
+// About Banner Tablet And Mobile version End

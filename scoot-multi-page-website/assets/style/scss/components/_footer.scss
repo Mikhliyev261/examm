@@ -1,0 +1,150 @@
+footer {
+    background-color: #495567;
+    width: 100%;
+    
+    .footer__items {
+        background-image: url(../../patterns/white-circles.svg);
+        background-size: cover;
+        background-position: bottom right;
+        
+        .footer-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .info__text {
+                h5 {
+                    padding: 102px 0px;
+                    max-width: 415px;
+                    color: #FFF;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+            }
+            .download {
+                display: flex;
+                column-gap: 28px;
+            }
+        }
+    }
+    
+    .navigation {
+        width: 100%;
+        background-color: #333A44;
+        padding: 0px 15px;
+        
+        .navigation__items {
+            padding: 36px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .navbar {
+                display: flex;
+                align-items: center;
+                column-gap: 58.18px;
+                nav {
+                    ul {
+                        display: flex;
+                        column-gap: 32px;
+                        
+                        li {
+                            a {
+                                color: #939CAA;
+                                font-family: Space Mono;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                                transition: 0.5s;
+                                &:hover {
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Footer Tablet And Mobile Section Start
+@media only screen and (max-width: 1024px ) {
+    footer {
+        background-color: #495567;
+        width: 100%;
+        
+        .footer__items {
+            background-image: url(../../patterns/white-circles-tablet.svg);
+            background-size: cover;
+            background-position: bottom right;
+            
+            .footer-info {
+                display: flex;
+                flex-direction: column;
+                
+                .info__text {
+                    h5 {
+                        width: 457px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: -2.143px;
+                    }
+                }
+                .download {
+                    padding-bottom: 62px;
+                    img {
+                        width: 113px;
+                    }
+                }
+            }
+        }
+    }
+}
+// Footer Tablet And Mobile Section End
+
+// Footer Tablet And Mobile Section Start
+@media only screen and (max-width: 768px ) {
+    footer {
+        
+        .footer__items {
+            
+            .footer-info {
+                .info__text {
+                    h5 {
+                        max-width: 311px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .navigation__items {
+            display: flex;
+            flex-direction: column;
+            row-gap: 85px;
+            
+            .navbar {
+                flex-direction: column;
+                row-gap: 41.44px;
+                nav {
+                    ul {
+                        flex-direction: column;
+                        align-items: center;
+                        row-gap: 16px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+// Footer Tablet And Mobile Section End
+

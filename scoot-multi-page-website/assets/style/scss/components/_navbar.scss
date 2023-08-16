@@ -1,0 +1,73 @@
+@import '../_basic.scss';
+
+header {
+    padding: 0px 15px;
+    .menu {
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 22px 0px;
+            
+            .three__line {
+                display: none;
+            }
+            
+            .logo_menu {
+                display: flex;
+                align-items: center;
+                column-gap: 58.18px;
+                
+                ul {
+                    display: flex;
+                    column-gap: 32px;
+                    
+                    li {
+                        
+                        a {
+                            color: #939CAA;
+                            font-family: Space Mono;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.5s;
+                            
+                            &:hover {
+                                color: #FCB72B;
+                            }
+                        }
+                    }
+                }
+            }
+            .mobile-hiddin {
+                display: none;
+            }
+        }
+    }
+}
+
+// Navbar Mobile Section Start
+@media only screen and (max-width: 768px) {
+    header {
+        .menu {
+            nav {
+                .three__line {
+                    display: block;
+                }
+                
+                .logo_menu {
+                    ul {
+                        display: none;
+                    }
+                }
+                .mobile-hiddin {
+                    display: block;
+                }
+                .btn {
+                    display: none;
+                }
+            }
+        }
+    }
+}
